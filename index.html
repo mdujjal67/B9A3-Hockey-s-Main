@@ -28,7 +28,7 @@
                 color: #131318;
             }
             .border {
-                border: 1px solid rgba(18, 18, 18, 0.10); 
+                border: 1px solid rgba(19, 19, 24, 0.10); 
             }
         </style>
 <body>
@@ -37,7 +37,7 @@
         <div class="block lg:hidden m-5">
             <div class="for-mobile-size flex justify-between">
                 <div class="mobile-time">
-                    <p class="text-[#131318]">9:41</p>
+                    <p class="text-[rgb(183,183,184)]">9:41</p>
                 </div>
                 <div class="mobile-top-icons">
                     <ul class="flex gap-[5px]">
@@ -82,7 +82,7 @@
               </div>
         </nav>
         <!-- styles for banner part -->
-        <div class="container mx-auto relative m-5 lg:m-0">
+        <div class="container mx-auto  m-5 lg:m-auto">
             <div class="carousel">
                 <div id="slide1"
                     class="carousel-item relative lg:w-full bg-[url(../images/1.png)] lg:bg-center bg-cover text-left lg:min-h-screen rounded-lg">
@@ -215,13 +215,202 @@
         </section>
         </section>
         <!-- styles for our new products section -->
-        <section class="container mx-auto m-5 lg:m-0">
+        <section class="container mx-auto m-5 lg:m-auto">
             <div class="text-center mx-auto">
                 <h2 class="text-xl lg:text-4xl font-extrabold">Our New Products</h2>
                 <p class="font-medium mt-6 mb-8 w-[280px] lg:w-[607px] mx-auto">Is your kid ready to play hockey? Or how about registering your kids for a new team? So you are in right place.</p>
             </div>
             <div class="container mx-auto mb-12">
-                <hr class="border-dashed border border-[#13131833] m-5 lg:m-0">
+                <hr class="border-dashed border border-[#3b3bc233] m-5 lg:m-0">
+            </div>
+            <!-- styles for new products section cards -->
+            <div class= "grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- product card-1 -->
+                <div class=" flex flex-col lg:flex-row items-center gap-5 border p-5 rounded-2xl">
+                    <div>
+                        <img class="w-[280px] lg:w-full rounded-xl" src="Images/5.png" alt="shirt">
+                    </div>
+                    <div class="ml-5">
+                        <div class="flex items-center gap-4">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-star text-[#F99808]"></i>
+                                <p class="">5.0</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-eye text-[#a6a5a5]"></i>
+                                <p>20</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-heart text-[#a6a5a5]"></i>
+                                <p>200</p>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-extrabold mt-3">World Cup Flags Football</h3>
+                        <p class="w-[260px] lg:w-[306px] font-medium leading-6] mt-3 mb-4">This 100% polyester fabric with 4-way stretch.</p>
+                        <div class="flex flex-col lg:flex-row gap-5">
+                            <p class="text-[#FF4240] text-[18px] font-extrabold leading-6">Price - $22.00</p>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-cart-shopping text-[#b6b6b6]"></i>
+                                <p class="text-[#a6a5a5]">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product card-2 -->
+                <div class=" flex flex-col lg:flex-row items-center gap-5 border p-5 rounded-2xl">
+                    <div>
+                        <img class="w-[280px] lg:w-full rounded-xl" src="Images/6.png" alt="shirt">
+                    </div>
+                    <div class="ml-5">
+                        <div class="flex items-center gap-4">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-star text-[#F99808]"></i>
+                                <p class="">5.0</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-eye text-[#a6a5a5]"></i>
+                                <p>20</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-heart text-[#a6a5a5]"></i>
+                                <p>200</p>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-extrabold mt-3">World Cup Flags Football</h3>
+                        <p class="w-[260px] lg:w-[306px] font-medium leading-6] mt-3 mb-4">This 100% polyester fabric with 4-way stretch.</p>
+                        <div class="flex flex-col lg:flex-row gap-5">
+                            <p class="text-[#FF4240] text-[18px] font-extrabold leading-6">Price - $22.00</p>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-cart-shopping text-[#b6b6b6]"></i>
+                                <p class="text-[#a6a5a5]">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product card-3 -->
+                <div class=" flex flex-col lg:flex-row items-center gap-5 border p-5 rounded-2xl">
+                    <div>
+                        <img class="w-[280px] lg:w-full rounded-xl" src="Images/7.png" alt="shirt">
+                    </div>
+                    <div class="ml-5">
+                        <div class="flex items-center gap-4">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-star text-[#F99808]"></i>
+                                <p class="">5.0</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-eye text-[#a6a5a5]"></i>
+                                <p>20</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-heart text-[#a6a5a5]"></i>
+                                <p>200</p>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-extrabold mt-3">Cap For Hockeys</h3>
+                        <p class="w-[260px] lg:w-[306px] font-medium leading-6] mt-3 mb-4">This 100% polyester fabric with 4-way stretch.</p>
+                        <div class="flex flex-col lg:flex-row gap-5">
+                            <p class="text-[#FF4240] text-[18px] font-extrabold leading-6">Price - $22.00</p>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-cart-shopping text-[#b6b6b6]"></i>
+                                <p class="text-[#a6a5a5]">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product card-4 -->
+                <div class=" flex flex-col lg:flex-row items-center gap-5 border p-5 rounded-2xl">
+                    <div>
+                        <img class="w-[280px] lg:w-full rounded-xl" src="Images/8.png" alt="shirt">
+                    </div>
+                    <div class="ml-5">
+                        <div class="flex items-center gap-4">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-star text-[#F99808]"></i>
+                                <p class="">5.0</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-eye text-[#a6a5a5]"></i>
+                                <p>20</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-heart text-[#a6a5a5]"></i>
+                                <p>200</p>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-extrabold mt-3">World Cup Flags Football</h3>
+                        <p class="w-[260px] lg:w-[306px] font-medium leading-6] mt-3 mb-4">This 100% polyester fabric with 4-way stretch.</p>
+                        <div class="flex flex-col lg:flex-row gap-5">
+                            <p class="text-[#FF4240] text-[18px] font-extrabold leading-6">Price - $22.00</p>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-cart-shopping text-[#b6b6b6]"></i>
+                                <p class="text-[#a6a5a5]">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product card-5 -->
+                <div class=" flex flex-col lg:flex-row items-center gap-5 border p-5 rounded-2xl">
+                    <div>
+                        <img class="w-[280px] lg:w-full rounded-xl" src="Images/9.png" alt="shirt">
+                    </div>
+                    <div class="ml-5">
+                        <div class="flex items-center gap-4">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-star text-[#F99808]"></i>
+                                <p class="">5.0</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-eye text-[#a6a5a5]"></i>
+                                <p>20</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-heart text-[#a6a5a5]"></i>
+                                <p>200</p>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-extrabold mt-3">World Cup Flags Football</h3>
+                        <p class="w-[260px] lg:w-[306px] font-medium leading-6] mt-3 mb-4">This 100% polyester fabric with 4-way stretch.</p>
+                        <div class="flex flex-col lg:flex-row gap-5">
+                            <p class="text-[#FF4240] text-[18px] font-extrabold leading-6">Price - $22.00</p>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-cart-shopping text-[#b6b6b6]"></i>
+                                <p class="text-[#a6a5a5]">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product card-6 -->
+                <div class=" flex flex-col lg:flex-row items-center gap-5 border p-5 rounded-2xl">
+                    <div>
+                        <img class="w-[280px] lg:w-full rounded-xl" src="Images/10.png" alt="shirt">
+                    </div>
+                    <div class="ml-5">
+                        <div class="flex items-center gap-4">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-star text-[#F99808]"></i>
+                                <p class="">5.0</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-eye text-[#a6a5a5]"></i>
+                                <p>20</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-heart text-[#a6a5a5]"></i>
+                                <p>200</p>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-extrabold mt-3">World Cup Flags Football</h3>
+                        <p class="w-[260px] lg:w-[306px] font-medium leading-6] mt-3 mb-4">This 100% polyester fabric with 4-way stretch.</p>
+                        <div class="flex flex-col lg:flex-row gap-5">
+                            <p class="text-[#FF4240] text-[18px] font-extrabold leading-6">Price - $22.00</p>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-cart-shopping text-[#b6b6b6]"></i>
+                                <p class="text-[#a6a5a5]">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
