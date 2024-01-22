@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hockey's Main</title>
+        <!-- Tailwind & daisy UI  -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Manrope google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+        <!-- font-awesome -->
+        <script src="https://kit.fontawesome.com/58b6a44110.js" crossorigin="anonymous"></script>
+        <style>
+            body {
+                font-family: "Manrope", sans-serif;
+                margin: 0 auto;
+            }
+            p {
+                color: rgba(19, 19, 24, 0.60); 
+            }
+            .special-color{
+                color: rgba(255, 255, 255, 0.60);
+            }
+            h1, h2, h3, h4, h5, h6 {
+                color: #131318;
+            }
+            .border {
+                border: 1px solid rgba(18, 18, 18, 0.10); 
+            }
+        </style>
+<body>
+    <header class="m-0 p-0">
+        <!-- styles for mobile device top icons -->
+        <div class="block lg:hidden m-5">
+            <div class="for-mobile-size flex justify-between">
+                <div class="mobile-time">
+                    <p class="text-[#131318]">9:41</p>
+                </div>
+                <div class="mobile-top-icons">
+                    <ul class="flex gap-[5px]">
+                        <li><i class="fa-solid fa-signal"></i></li>
+                        <li><i class="fa-solid fa-wifi"></i></li>
+                        <li><i class="fa-solid fa-battery-full"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- styles for nav part -->
+        <nav class="container mx-auto lg:mb-16">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                    </ul>
+                    </div>
+                    <h5 class="text-xl lg:text-4xl font-extrabold"><a href="#">Hockey<span class="text-[#FF4240]">'</span>s</a></h5>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                      <li class="hover:text-[#FF4240]"><a>Home</a></li>
+                      <li class="hover:text-[#FF4240]"><a>About</a></li>
+                      <li class="hover:text-[#FF4240]"><a>Pages</a></li>
+                      <li class="hover:text-[#FF4240]"><a>Blog</a></li>
+                      <li class="hover:text-[#FF4240]"><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass lg:mr-6 text-[#89898B] hidden lg:block"></i></a>
+                    <a class="btn text-white text-[16px] lg:text-xl font-extrabold bg-[#FF4240] text-center rounded-lg hover:bg-[#131318] border-none">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+        <!-- styles for banner part -->
+        <div class="container mx-auto relative">
+            <div class="carousel">
+                <div id="slide1"
+                    class="carousel-item relative lg:w-full bg-[url(../images/1.png)] lg:bg-center bg-cover text-left lg:min-h-screen rounded-lg">
+                    <div class="bg-[#131318] w-[566px] h-[165px] p-8 rounded-2xl absolute bottom-[32px] right-[32px]">
+                        <h1 class=" text-white text-xl lg:text-2xl font-extrabold ">Meet all the heroes from the field</h1>
+                        <p class= "text-[#ffffff99] pt-4">Spending time with them is always a highlight, seeing how the program instills confidence in the kids. </p>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
+                    </div>
+                </div>
+
+                <div id="slide2"
+                    class="carousel-item relative lg:w-full bg-[url(../images/1.png)] lg:bg-center bg-cover text-left lg:min-h-screen rounded-lg">
+                    <div class="bg-[#131318] w-[566px] h-[165px] p-8 rounded-2xl absolute bottom-[32px] right-[32px]">
+                        <h1 class=" text-white text-xl lg:text-2xl font-extrabold ">Meet all the heroes from the field</h1>
+                        <p class= "text-[#ffffff99] pt-4">Spending time with them is always a highlight, seeing how the program instills confidence in the kids.</p>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❯</a>
+                    </div>
+                </div>
+
+                <div id="slide3" 
+                    class="carousel-item relative lg:w-full bg-[url(../images/1.png)] lg:bg-center bg-cover text-left lg:min-h-screen rounded-lg">
+                    <div class="w-[566px] h-[165px] bg-[#131318] p-8 rounded-2xl">
+                        <h1 class=" text-white text-xl lg:text-2xl font-extrabold ">Meet all the heroes from the field</h1>
+                        <p class="text-[#ffffff99] pt-4">Spending time with them is always a highlight, seeing how the program instills confidence in the kids.</p>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❮</a>
+                        <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❯</a>
+                    </div>
+                </div>
+
+                <div id="slide4" 
+                    class="carousel-item relative lg:w-full bg-[url(../images/1.png)] lg:bg-center bg-cover text-left lg:min-h-screen rounded-lg">
+                    <div class="bg-[#131318]">
+                        <h1 class=" text-white text-xl lg:text-2xl font-extrabold ">Meet all the heroes from the field</h1>
+                        <p class= "text-[#ffffff99] pt-4">Spending time with them is always a highlight, seeing how the program instills confidence in the kids.</p>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto mt-[100px] mb-8">
+            <hr class="border-dashed border border-[#13131833]">
+        </div>
+    </header>
+    <main>
+        <!-- styles for professional club section -->
+        <section class="container mx-auto">
+            <div class="text-center mx-auto">
+                <h2 class="text-xl lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
+                <p class="font-medium mt-6 mb-8 w-[607px] mx-auto">Is your kid ready to play hockey? Or how about registering your kids for a new team? So you are in right place.</p>
+            </div>
+            <div class="container mx-auto mb-12">
+                <hr class="border-dashed border border-[#13131833]">
+            </div>
+            <!-- styles for round circle skills part -->
+            <div class="mx-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="radial-progress text-red-500 rotate-180" style="--value:87;" role="progressbar"><span class="-rotate-180 font-extrabold text-xl">87%</span></div>
+                    <h4 class="text-xl font-semibold  mt-6 mb-4">Prayer Facility</h4>
+                    <p class="leading-7">Each week boys and girls get an opportunity to learn lifelong skills</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-green-500 rotate-180" style="--value:95;" role="progressbar"><span class="-rotate-180 font-extrabold text-xl">95%</span></div>
+                    <h4 class="text-xl font-semibold  mt-6 mb-4">Prayer Facility</h4>
+                    <p class="leading-7">Each week boys and girls get an opportunity to learn lifelong skills</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-orange-500 rotate-180" style="--value:90;" role="progressbar"><span class="-rotate-180 font-extrabold text-xl">90%</span></div>
+                    <h4 class="text-xl font-semibold  mt-6 mb-4">Prayer Facility</h4>
+                    <p class="leading-7">Each week boys and girls get an opportunity to learn lifelong skills</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-blue-500 rotate-180" style="--value:80;" role="progressbar"><span class="-rotate-180 font-extrabold text-xl ">80%</span></div>
+                    <h4 class="text-xl font-semibold  mt-6 mb-4">Prayer Facility</h4>
+                    <p class="leading-7">Each week boys and girls get an opportunity to learn lifelong skills</p>
+                </div>
+            </div>
+            <div class="container mx-auto mt-[100px] mb-8">
+                <hr class="border-dashed border border-[#13131833]">
+            </div>
+        </section>
+        <!-- styles for program section -->
+        <section class="container mx-auto">
+            <div class="text-center mx-auto">
+                <h2 class="text-xl lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
+                <p class="font-medium mt-6 mb-8 w-[607px] mx-auto">Is your kid ready to play hockey? Or how about registering your kids for a new team? So you are in right place.</p>
+            </div>
+            <div class="container mx-auto mb-12">
+                <hr class="border-dashed border border-[#13131833]">
+            </div>
+            <!-- styles for program section cards -->
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/2.png)] w-full bg-cover bg-center p-10 rounded-2xl">
+                    <div class="mb-10">
+                        <h4 class="text-white text-3xl font-extrabold pt-24">Junior Program</h4>
+                        <p class="font-medium leading-7 text-white pt-4 pb-6">Junior program provides opportunities for players ages 16-to-20 to hone and enhance their skills and is an important part of the organization's overall efforts related to player development.</p>
+                        <a href="#" class="py-[10px] px-[22px] bg-[#FF4240] hover:bg-black rounded-lg text-white text-xl font-bold mb-10"><button>Register Now!</button></a>
+                    </div>
+                </div>
+                <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/3.png)] w-full bg-cover bg-center p-10 rounded-2xl">
+                    <div>
+                        <h4 class="text-white text-3xl font-extrabold pt-24">Junior Program</h4>
+                        <p class="font-medium leading-7 text-white pt-4 pb-6">Junior program provides opportunities for players ages 16-to-20 to hone and enhance their skills and is an important part of the organization's overall efforts related to player development.</p>
+                        <a href="#" class="py-[10px] px-[22px] bg-[#FF4240] hover:bg-black rounded-lg text-white text-xl font-bold mb-10"><button>Register Now!</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/4.png)] bg-cover w-full bg-center  h-[450px] mt-6 p-10 rounded-2xl">
+                <div>
+                    <h4 class="text-white text-3xl font-extrabold pt-24">Junior Program</h4>
+                    <p class="font-medium leading-7 text-white pt-4 pb-6 w-[520px]">Junior program provides opportunities for players ages 16-to-20 to hone and enhance their skills and is an important part of the organization's overall efforts related to player development.</p>
+                    <a href="#" class="py-[10px] px-[22px] bg-[#FF4240] hover:bg-black rounded-lg text-white text-xl font-bold"><button>Register Now!</button></a>
+                </div>
+            </div>
+            <div class="container mx-auto mt-[100px] mb-8">
+                <hr class="border-dashed border border-[#13131833]">
+            </div>
+        </section>
+        </section>
+        <!-- styles for our new products section -->
+        <section class="container mx-auto">
+            <div class="text-center mx-auto">
+                <h2 class="text-xl lg:text-4xl font-extrabold">Our New Products</h2>
+                <p class="font-medium mt-6 mb-8 w-[607px] mx-auto">Is your kid ready to play hockey? Or how about registering your kids for a new team? So you are in right place.</p>
+            </div>
+            <div class="container mx-auto mb-12">
+                <hr class="border-dashed border border-[#13131833]">
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
